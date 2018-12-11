@@ -3,22 +3,12 @@
 #size of each image, change them into size (640,485)      # 
 ########################################################### 
 import numpy as np
-#scikit_image
 
 import tensorflow as tf
-#from skimage.transform import resize
 from skimage import transform
 import matplotlib.pyplot as plt 
 
-#dog_img = plt.imread('dog_1.jpg')
 
-#resize the image in skimage
-#dog_img = transform.resize(dog_img,(640,480))
-
-#save image
-#plt.imsave("dog_1c.jpg",dog_img)
-#plt.imshow(dog_img)
-#plt.show()
 
 
 ###########################################################
